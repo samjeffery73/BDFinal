@@ -102,7 +102,7 @@ import csv
 
 uri = "bolt://localhost:7687"
 username = "neo4j"
-password = "Aolhotqc1."
+password = # Removed for privacy
 
 csv_file_path = "file:///Automated_Traffic_Volume_Counts_20240417.csv"
 driver = GraphDatabase.driver(uri, auth=(username, password))
